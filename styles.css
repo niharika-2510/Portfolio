@@ -196,14 +196,21 @@ body {
     animation: particles 20s linear infinite;
 }
 
-@keyframes particles {
-    0% {
-        transform: translateY(0) rotate(0deg);
-    }
-    100% {
-        transform: translateY(-100px) rotate(360deg);
-    }
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px); /* pehle upar se aayegi */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* normal position */
+  }
 }
+
+.hero-content h1 {  /* ya jo bhi aapke line ka selector hai */
+  animation: slideDown 1s ease-out forwards;
+}
+
 
 .hero-content {
     position: relative;
