@@ -64,12 +64,14 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;          /* default height chhoti kardi */
-    padding: 10px 20px;    /* padding kam kardi */
-    font-size: 14px;       /* text bhi chhota hoga */
+    height: 40px;        /* aur chhoti height */
+    padding: 5px 15px;   /* kam padding */
+    font-size: 12px;     /* text aur chhota */
+    line-height: 20px;   /* text ke beech gap kam */
     z-index: 1000;
-    background: #0a0a0a;   /* example background */
+    background: #0a0a0a; /* ya jo bhi color aap use kar rahe ho */
 }
+
 
 
 
