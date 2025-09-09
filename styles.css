@@ -69,6 +69,13 @@ body {
     z-index: 1000;
     transition: var(--transition);
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* higher than hero-content */
+}
 
 [data-theme="light"] .navbar {
     background: rgba(255, 255, 255, 0.9);
@@ -208,6 +215,7 @@ body {
     gap: 64px;
     align-items: center;
     width: 100%;
+    margin-top: 100px; 
 }
 @media (max-width: 768px) {
     .hero-content {
