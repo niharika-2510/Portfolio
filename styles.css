@@ -71,9 +71,9 @@ body {
   z-index: 1000;
 }
 
-/* Hero content ko neeche shift karo */
+
 .hero-content {
-  margin-top: 80px; /* navbar ke neeche space banayi */
+  margin-top: 40px; 
 }
 
 
